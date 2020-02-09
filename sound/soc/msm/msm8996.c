@@ -53,7 +53,7 @@
 //#define MSM8996_HIFI_ON    1
 
 #define MSM8996_SPK_ON     0
-#define MSM8996_HIFI_ON    0
+#define MSM8996_HIFI_ON    1
 
 #define WCD9XXX_MBHC_DEF_BUTTONS    8
 #define WCD9XXX_MBHC_DEF_RLOADS     5
