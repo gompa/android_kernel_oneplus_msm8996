@@ -397,7 +397,7 @@ include $(srctree)/scripts/Kbuild.include
 AS		= $(CROSS_COMPILE)as
 LD		= $(HDK_TC)ld.lld -m aarch64linux --strip-debug --lto-O3
 CC		= $(CROSS_COMPILE)gcc -g0
-CPP		= $(CPP_TRIPLE) -E -flto
+CPP		= $(CPP_TRIPLE) -flto
 AR		= $(LLVM_TRIPLE)ar
 NM		= $(CROSS_COMPILE)nm
 STRIP		= $(CROSS_COMPILE)strip
